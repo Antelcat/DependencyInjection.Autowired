@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antelcat.DependencyInjection.Autowired", "Antelcat.DependencyInjection.Autowired\Antelcat.DependencyInjection.Autowired.csproj", "{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.DependencyInjection.Autowired", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.DependencyInjection.Autowired\Antelcat.Shared.DependencyInjection.Autowired.shproj", "{C1EEE7E2-07F3-4970-9489-783254DE0F8D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.Runtime.CompileService", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Runtime.CompileService\Antelcat.Shared.Runtime.CompileService.shproj", "{9EE3F4BA-04A9-44B9-A75E-61D368E810E1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.IL", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.shproj", "{3AB3FD3D-C47D-4B09-87D7-299ABCE37BD2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.Extensions.LinqExtension", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.shproj", "{AAD7AE77-142C-4E1A-9CEE-D4825E489B6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antelcat.DependencyInjection.Autowired.Test", "Antelcat.DependencyInjection.Autowired.Test\Antelcat.DependencyInjection.Autowired.Test.csproj", "{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.AspNetCore.DependencyInjection.Autowired", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.shproj", "{D4F9EF9F-57E0-490A-89AA-B382BCC936E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antelcat.DependencyInjection.Autowired.ServerTest", "Antelcat.DependencyInjection.Autowired.ServerTest\Antelcat.DependencyInjection.Autowired.ServerTest.csproj", "{37BF3019-C106-4E02-98BE-2F0647C45F98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D5FD682-8B82-4F21-8EDE-09729D5C747B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.projitems*{3ab3fd3d-c47d-4b09-87d7-299abce37bd2}*SharedItemsImports = 13
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.DependencyInjection.Autowired\Antelcat.Shared.DependencyInjection.Autowired.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Runtime.CompileService\Antelcat.Shared.Runtime.CompileService.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Runtime.CompileService\Antelcat.Shared.Runtime.CompileService.projitems*{9ee3f4ba-04a9-44b9-a75e-61d368e810e1}*SharedItemsImports = 13
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.projitems*{aad7ae77-142c-4e1a-9cee-d4825e489b6a}*SharedItemsImports = 13
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.DependencyInjection.Autowired\Antelcat.Shared.DependencyInjection.Autowired.projitems*{c1eee7e2-07f3-4970-9489-783254de0f8d}*SharedItemsImports = 13
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.projitems*{d4f9ef9f-57e0-490a-89aa-b382bcc936e3}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

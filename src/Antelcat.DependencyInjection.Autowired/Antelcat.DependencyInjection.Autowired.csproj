@@ -5,10 +5,24 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>preview</LangVersion>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+        <Version>2.1.0</Version>
+        <Title>Antelcat.DependencyInjection.Autowired</Title>
+        <Authors>Antelcat</Authors>
+        <Description>Expand native DI with property and field injection</Description>
+        <PackageProjectUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired.git</RepositoryUrl>
+        <PackageReleaseNotes>Initial</PackageReleaseNotes>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
         <InternalsVisibleTo Include="Antelcat.AspNetCore.DependencyInjection.Autowired" />
+        <None Include="..\..\README.md">
+          <Pack>True</Pack>
+          <PackagePath>\</PackagePath>
+        </None>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0" />
     </ItemGroup>
 
