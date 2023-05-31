@@ -7,12 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Antelcat.AspNetCore.DependencyInjection.Autowired" Version="7.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Antelcat.AspNetCore.DependencyInjection.Autowired\Antelcat.AspNetCore.DependencyInjection.Autowired.csproj" />
     </ItemGroup>
 
 </Project>

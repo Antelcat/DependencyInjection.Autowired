@@ -51,7 +51,7 @@ public class ServiceTest
         watch.Start();
         while (times-- > 0)  test();
         watch.Stop();
-        Console.WriteLine($"Autofac resolve cost {watch.ElapsedTicks}");
+        Console.WriteLine($"Autofac resolve {Times} times cost {watch.ElapsedTicks} ticks");
     }
     
     [Test]
@@ -63,7 +63,7 @@ public class ServiceTest
         watch.Start();
         while (times-- > 0)  CurrentTest.Item1();
         watch.Stop();
-        Console.WriteLine($"Native resolve cost {watch.ElapsedTicks}");
+        Console.WriteLine($"Native resolve {Times} times cost {watch.ElapsedTicks} ticks");
     }
 
     [Test]
@@ -75,7 +75,7 @@ public class ServiceTest
         watch.Start();
         while (times-- > 0)  CurrentTest.Item2();
         watch.Stop();
-        Console.WriteLine($"Autowired resolve cost {watch.ElapsedTicks}");
+        Console.WriteLine($"Autowired resolve {Times} times cost {watch.ElapsedTicks} ticks");
     }
     
     [Test]
