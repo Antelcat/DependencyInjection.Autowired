@@ -13,11 +13,8 @@
     </ItemGroup>
 
     <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.DependencyInjection.Autowired\Antelcat.Shared.DependencyInjection.Autowired.projitems" Label="Shared" />
-
     <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Runtime.CompileService\Antelcat.Shared.Runtime.CompileService.projitems" Label="Shared" />
-
     <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.projitems" Label="Shared" />
-
     <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.projitems" Label="Shared" />
 
 </Project>
