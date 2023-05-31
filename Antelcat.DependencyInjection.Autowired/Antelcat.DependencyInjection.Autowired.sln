@@ -10,6 +10,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.IL", "..\ex
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.Extensions.LinqExtension", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.shproj", "{AAD7AE77-142C-4E1A-9CEE-D4825E489B6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.DependencyInjection.Autowired.Test", "Antelcat.DependencyInjection.Autowired.Test\Antelcat.DependencyInjection.Autowired.Test.csproj", "{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +22,9 @@ Global
 		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BCDCEC-5ABD-40DD-AB29-5C864509A3AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
