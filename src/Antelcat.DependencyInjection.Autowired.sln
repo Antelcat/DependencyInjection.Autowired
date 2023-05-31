@@ -19,6 +19,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.AspNetCore.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antelcat.DependencyInjection.Autowired.ServerTest", "Antelcat.DependencyInjection.Autowired.ServerTest\Antelcat.DependencyInjection.Autowired.ServerTest.csproj", "{37BF3019-C106-4E02-98BE-2F0647C45F98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.AspNetCore.DependencyInjection.Autowired", "Antelcat.AspNetCore.DependencyInjection.Autowired\Antelcat.AspNetCore.DependencyInjection.Autowired.csproj", "{3F84F24B-F31C-420D-80F8-A0424CF58694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F84F24B-F31C-420D-80F8-A0424CF58694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F84F24B-F31C-420D-80F8-A0424CF58694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F84F24B-F31C-420D-80F8-A0424CF58694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F84F24B-F31C-420D-80F8-A0424CF58694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.projitems*{3ab3fd3d-c47d-4b09-87d7-299abce37bd2}*SharedItemsImports = 13
+		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.projitems*{3f84f24b-f31c-420d-80f8-a0424cf58694}*SharedItemsImports = 5
 		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.DependencyInjection.Autowired\Antelcat.Shared.DependencyInjection.Autowired.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
 		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
 		..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.projitems*{4cfb74a0-8d5d-4487-bce7-aca2b487be4e}*SharedItemsImports = 5
