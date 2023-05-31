@@ -10,4 +10,10 @@
       <ProjectReference Include="..\Antelcat.DependencyInjection.Autowired\Antelcat.DependencyInjection.Autowired.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />
+    </ItemGroup>
+
+    <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.projitems" Label="Shared" />
+
 </Project>

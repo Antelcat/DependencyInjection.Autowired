@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.DependencyInjectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.AspNetCore.DependencyInjection.Autowired", "Antelcat.AspNetCore.DependencyInjection.Autowired\Antelcat.AspNetCore.DependencyInjection.Autowired.csproj", "{4D7D08E4-B372-4CEE-B066-A7401E6FDE2F}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.AspNetCore.DependencyInjection.Autowired", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.shproj", "{D4F9EF9F-57E0-490A-89AA-B382BCC936E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
