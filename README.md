@@ -4,6 +4,8 @@ Extensions of native [.NET dependency injection](https://github.com/dotnet/docs/
 
 All lifetimes and generics are now supported. And using [IL delegates](https://github.com/Antelcat/Antelcat.Shared/tree/main/Antelcat.Shared/Antelcat.Shared.IL) to speed up the setter.
 
+## Usage
+
 ``` c#
 public class Service{
     [Autowired]
@@ -13,7 +15,7 @@ public class Service{
 }
 ```
 
-In common use :
+## In common :
 
 ``` c#
 IServiceProvider provider = new ServiceCollection()
@@ -22,7 +24,7 @@ IServiceProvider provider = new ServiceCollection()
 IService service = provider.GetService<IService>();
 ```
 
-In [ASP.NET Core](https://github.com/dotnet/aspnetcore) :
+## In [ASP.NET CORE MVC](https://github.com/dotnet/aspnetcore) :
 
 ```c#
 var builder = WebApplication.CreateBuilder(args);
@@ -34,3 +36,14 @@ builder.Host.UseAutowiredServiceProviderFactory(); // autowired services
 
 Tests could be found in [ServiceTest.cs](./src/Antelcat.DependencyInjection.Autowired.Test/ServiceTest.cs) , which shows higher performance than Autofac and is close to native.
 
+## Migration
+
+Meanwhile, you can still use your attribute, only need to provide it at build time :
+
+```c#
+IServiceProvider provider = collection.BuildAutowiredServiceProvider<YourAutowiredAttribute>(...);
+builder.Services.AddControllers() 
+                .AddControllersAsServices()
+                .UseAutowiredControllers<YourAutowiredAttribute>(); 
+builder.Host.UseAutowiredServiceProviderFactory<YourAutowiredAttribute>();
+```
