@@ -20,6 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Antelcat.AspNetCore.DependencyInjection.Autowired\Antelcat.AspNetCore.DependencyInjection.Autowired.csproj" />
       <ProjectReference Include="..\Antelcat.DependencyInjection.Autowired\Antelcat.DependencyInjection.Autowired.csproj" />
     </ItemGroup>
 
