@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.DependencyInjection.Autowired", "Antelcat.DependencyInjection.Autowired\Antelcat.DependencyInjection.Autowired.csproj", "{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.DependencyInjection.Autowired", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.DependencyInjection.Autowired\Antelcat.Shared.DependencyInjection.Autowired.shproj", "{C1EEE7E2-07F3-4970-9489-783254DE0F8D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.Runtime.CompileService", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Runtime.CompileService\Antelcat.Shared.Runtime.CompileService.shproj", "{9EE3F4BA-04A9-44B9-A75E-61D368E810E1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.IL", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.IL\Antelcat.Shared.IL.shproj", "{3AB3FD3D-C47D-4B09-87D7-299ABCE37BD2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.Extensions.LinqExtension", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.Extensions.LinqExtension\Antelcat.Shared.Extensions.LinqExtension.shproj", "{AAD7AE77-142C-4E1A-9CEE-D4825E489B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFB74A0-8D5D-4487-BCE7-ACA2B487BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
