@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.AspNetCore.Depende
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Antelcat.Shared.AspNetCore.DependencyInjection.Autowired", "..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.shproj", "{D4F9EF9F-57E0-490A-89AA-B382BCC936E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antelcat.DependencyInjection.Autowired.ServerTest", "Antelcat.DependencyInjection.Autowired.ServerTest\Antelcat.DependencyInjection.Autowired.ServerTest.csproj", "{37BF3019-C106-4E02-98BE-2F0647C45F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +36,9 @@ Global
 		{4D7D08E4-B372-4CEE-B066-A7401E6FDE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7D08E4-B372-4CEE-B066-A7401E6FDE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7D08E4-B372-4CEE-B066-A7401E6FDE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BF3019-C106-4E02-98BE-2F0647C45F98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
