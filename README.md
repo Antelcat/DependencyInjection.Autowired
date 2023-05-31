@@ -1,8 +1,8 @@
 # Antelcat.DependencyInjection.Autowired
 
-Extensions of native [.NET dependency injection](https://github.com/dotnet/docs/blob/main/docs/core/extensions/dependency-injection.md) with [Autowired](./Antelcat.Foundation.Core/Antelcat.Foundation.Core/Attributes/AutowiredAttribute.cs), provides a way to support properties and fields injection.
+Extensions of native [.NET dependency injection](https://github.com/dotnet/docs/blob/main/docs/core/extensions/dependency-injection.md) with [Autowired](./extern/Antelcat.Shared/Antelcat.Shared/Antelcat.Shared.DependencyInjection.Autowired/Attributes/AutowiredAttribute.cs), provides a way to support properties and fields injection.
 
-All lifetimes and generics are now supported. And using [IL delegates](#il-delegates) to speed up the setter.
+All lifetimes and generics are now supported. And using [IL delegates](./extern/Antelcat.Shared/Antelcat.Shared/Antelcat.Shared.IL/) to speed up the setter.
 
 ``` c#
 public class Service{
@@ -32,5 +32,5 @@ builder.Services.AddControllers() //register controllers
 builder.Host.UseAutowiredServiceProviderFactory(); // autowired services
 ```
 
-Tests could be found in [ServiceTest.cs](./Antelcat.Foundation.Core/Antelcat.Foundation.Test/ServiceTest.cs) , which shows higher performance than Autofac and is close to native.
+Tests could be found in [ServiceTest.cs](./Antelcat.DependencyInjection.Autowired/Antelcat.DependencyInjection.Autowired.Test/ServiceTest.cs) , which shows higher performance than Autofac and is close to native.
 
