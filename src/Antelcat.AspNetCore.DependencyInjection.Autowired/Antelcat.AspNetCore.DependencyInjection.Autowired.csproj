@@ -4,9 +4,36 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Antelcat.AspNetCore.DependencyInjection.Autowired</Title>
+    <Version>7.0.0</Version>
+    <Company>Antelcat</Company>
+    <Authors>Antelcat</Authors>
+    <Description>Expand native DI with property and field injection for aspnetcore</Description>
+    <PackageProjectUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired.git</RepositoryUrl>
+    <PackageReleaseNotes>Initial</PackageReleaseNotes>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <None Include="..\..\docs\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />

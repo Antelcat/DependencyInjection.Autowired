@@ -10,6 +10,7 @@ builder.Services.AddControllers().AddControllersAsServices().UseAutowiredControl
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Host.UseAutowiredServiceProviderFactory();
 
 var app = builder.Build();
 
