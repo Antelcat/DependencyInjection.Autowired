@@ -19,8 +19,6 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
-  <Import Project="..\..\extern\Antelcat.Shared\Antelcat.Shared\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.projitems" Label="Shared" />
-
   <ItemGroup>
     <None Include="..\..\docs\Icon.png">
       <Pack>True</Pack>
@@ -43,5 +41,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Antelcat.DependencyInjection.Autowired\Antelcat.DependencyInjection.Autowired.csproj" />
   </ItemGroup>
+
+  <Import Project="..\..\extern\Antelcat.Shared\src\Shared\AspNetCore\DependencyInjection.Autowired\Antelcat.Shared.AspNetCore.DependencyInjection.Autowired.projitems" Label="Shared" />
 
 </Project>
