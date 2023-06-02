@@ -2,7 +2,7 @@
 
 Extensions of native [.NET dependency injection](https://github.com/dotnet/docs/blob/main/docs/core/extensions/dependency-injection.md) with [Autowired](https://github.com/Antelcat/Antelcat.Shared/blob/main/Antelcat.Shared/Antelcat.Shared.DependencyInjection.Autowired/Attributes/AutowiredAttribute.cs), provides a way to support properties and fields injection.
 
-All lifetimes and generics are now supported. And using [IL delegates](https://github.com/Antelcat/Antelcat.Shared/tree/main/Antelcat.Shared/Antelcat.Shared.IL) to speed up the setter.
+All lifetimes and generics are now supported. And using [ILGeneratorEx](https://github.com/Antelcat/ILGeneratorEx) to speed up the setter.
 
 ## Usage
 
