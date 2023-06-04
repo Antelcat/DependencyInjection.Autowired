@@ -40,6 +40,7 @@ public class D : Factory<D>, ID
     }
     private readonly IA A;
     [Autowired] private readonly IB B;
+    
 }
 
 public interface IGeneric<T> { }

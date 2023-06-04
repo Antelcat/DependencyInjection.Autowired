@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Antelcat.AspNetCore.DependencyInjection.Autowired" Version="7.0.1" />
+        <PackageReference Include="Antelcat.AspNetCore.DependencyInjection.Autowired" Version="7.0.2" />
         <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.4.23259.5" />
