@@ -7,14 +7,14 @@
     <LangVersion>preview</LangVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Antelcat.AspNetCore.DependencyInjection.Autowired</Title>
-    <Version>7.0.2</Version>
+    <Version>7.0.3</Version>
     <Company>Antelcat</Company>
     <Authors>Antelcat</Authors>
     <Description>Expand native Dependency Injection with property and field injection for aspnetcore</Description>
     <PackageProjectUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Antelcat/Antelcat.DependencyInjection.Autowired.git</RepositoryUrl>
-    <PackageReleaseNotes>Supports multiple NET versions</PackageReleaseNotes>
+    <PackageReleaseNotes>Reference to latest update of A.D.A</PackageReleaseNotes>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
