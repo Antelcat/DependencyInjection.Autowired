@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <LangVersion>preview</LangVersion>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        <Version>2.1.2</Version>
+        <Version>2.1.2.1</Version>
         <Title>Antelcat.DependencyInjection.Autowired</Title>
         <Authors>Antelcat</Authors>
         <Description>Expand native Dependency Injection with property and field injection</Description>
@@ -15,7 +15,11 @@
         <PackageReleaseNotes>Fixed resolve errors when not registered</PackageReleaseNotes>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>Icon.png</PackageIcon>
-        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>dotnet;.NET;Dependency;Injection;Autowired;IOC;DI;Extensions</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
